@@ -1,0 +1,32 @@
+/* CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(24, 24, 51);
+    align-items: center;
+    padding: 20px 0px;
+}
+header img {
+    width: 100px;
+    height: auto;
+}
+nav a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.884);
+    padding: 0px 18px;
+}
+.contato a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.808);
+    background-color: rgb(5, 161, 161);
+    border-radius: 15px;
+    padding: 5px 17px;
+}
